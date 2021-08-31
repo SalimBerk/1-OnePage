@@ -1,0 +1,307 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:8px;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    background-color: black;
+    color:white;
+    text-align:center;
+    line-height: 1.7;
+    font-size: 1.7rem;
+    
+
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    height:auto;
+    width:44rem;
+   
+}
+header{
+    height:80rem;
+    position: relative;
+}
+header .image-header{
+    height:80rem;
+    width:100%;
+    background-image: url(image/unnamed.jpg);
+    opacity: 0.4;
+    z-index: -1;
+    position:absolute;
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+    padding:24rem;
+    text-transform:uppercase;
+}
+p{
+    padding:4rem;
+}
+.btn-header{
+    color:rgb(7, 5, 5);
+    background-color: blanchedalmond;
+    font-size:1rem;
+    line-height: 1.5;
+    border-radius:.25rem;
+    display:inline-block;
+    font-weight: 400px;
+    text-align: center;
+    transition: all 0.4s;
+    margin: .6rem 0;
+    padding:1.7rem 3.4rem;
+    border: solid 1px;
+    box-shadow: 1px 2px 3px 3px black;
+    
+}
+.btn-header:hover{
+    background-color:rgb(15, 7, 7);
+    color:white;
+    box-shadow: 1px 2px 3px 6px black;
+}
+
+#division-1-main{
+    background-color:rgba(80, 48, 30, 0.788);
+    padding:4.4rem 0;
+}
+main #division-2-list ul{
+    list-style-type: none;
+}
+#division-2-list{
+    padding:2.6rem;
+    background-color: white;
+    color:#030707dc;
+}
+
+.area-div{
+    padding:1.4rem;
+}
+.area img{
+    border-radius: 10px;
+    opacity:0.7;
+    width: 450px;
+}
+
+.area h3{
+    text-transform: uppercase;
+    font-weight:bold;
+    
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+#division-3-career{
+    width:100%;
+    height:50rem;
+    margin:2rem 0;
+}
+#left-main{
+    float:left;
+    width:50%;
+    height:100%;
+    box-sizing: border-box;
+    background-color:#4e1b1285;
+
+}
+#right-main{
+    float:left;
+    height:100%;
+    width:50%;
+    box-sizing: border-box;
+    background-color:rgba(92, 36, 36, 0.863);
+
+}
+#right-main ul{
+    list-style-type: none;
+}
+nav{
+    background-color:#4e1b1285;
+    color:white;
+    padding: 3rem 0 3rem 0;
+    
+    
+}
+ .btk-akademi{
+    color:white;
+    font-size:2rem;
+    
+    
+    
+}
+.container{
+    margin:0 auto;
+    padding: auto;
+    
+    
+}
+#menu{
+    float:right;
+}
+#menu li{
+    display:inline-block;
+    margin:0 12rem 12rem 0;
+}
+#menu a{ 
+    color:white;
+    font-size: 1.4rem;
+    font-weight:600;
+    letter-spacing: .3rem;
+    transition: all .3s;
+}
+#menu a:hover{
+    background-color:white;
+    color:#4e1b1285;
+}
+#logo{
+    float:left;
+}
+#high i{
+    color:white;
+    padding-bottom: 2rem;
+    
+}
+
+#high{
+    position:fixed;
+    bottom:0;
+    right:0;
+
+}
+#high a{
+    width:10rem;
+    height:10rem;
+    border:solid 1px white;
+    background:rgba(92, 36, 36, 0.863);
+    margin-right:10px;
+    transition:all .4s;
+}
+footer{
+    padding:6rem 6rem 12rem 6rem;
+}
+.form-control{
+    width:50%;
+    padding:2rem;
+    border:1px solid aqua;
+    box-sizing: border-box;
+    border-radius:.5rem;
+    text-align:center;
+    margin:auto;
+}
+.form-email{
+    width:100%;
+    height:25rem;
+}
+.form-grup-all{
+    width:100%;
+    height:auto;
+}
+textarea{
+    width:25%;
+    margin:auto;
+}
+.button-send{
+    background-color: black;
+    width:20%;
+}
+.button-send:focus{
+    background-color: white;
+    color:black;
+    width:20%;
+    transition: all 1s;
+
+}
+.form-group{
+    margin-bottom:.5rem;
+}
+.form-control:focus{
+    background-color: #42280C;
+    color:white;
+    
+
+}
+
+textarea:focus{
+    background-color: #42280C;
+
+}
+.col20{
+    float:left;
+    width:20%;
+    box-sizing: border-box;
+}
+.col25{
+    float:left;
+    width:25%;
+    box-sizing: border-box;
+}
+.col50{
+    float:left;
+    width:50%;
+    box-sizing: border-box;
+}
+.col75{
+    float:left;
+    width:75%;
+    box-sizing: border-box;
+}
+.col100{
+    float:left;
+    width:100%;
+    box-sizing: border-box;
+}
+#form-contact{ 
+    background-color: black;
+    margin-bottom: 2rem;
+    padding:3rem;
+}
+
+@media only screen and (max-width:1230px) and (min-width:990px){ 
+    body{
+        font-family:'Roboto', sans-serif;
+        background-color: black;
+        color:white;
+        text-align:center;
+        line-height: 1.7;
+        font-size: 1.7rem;
+        
+    
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body{
+        font-family:'Roboto', sans-serif;
+        background-color: black;
+        color:white;
+        text-align:center;
+        line-height: 1.7;
+        font-size: 1.7rem;
+        
+    
+    }
+}
+@media only screen and (max-width: 479px) {
+    body{
+        font-family:'Roboto', sans-serif;
+        background-color: black;
+        color:white;
+        text-align:center;
+        line-height: 1.7;
+        font-size: 1.7rem;
+        
+    
+    }
+}
+
